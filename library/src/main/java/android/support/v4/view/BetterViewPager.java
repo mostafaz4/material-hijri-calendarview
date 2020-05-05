@@ -13,6 +13,7 @@ public class BetterViewPager extends ViewPager {
 
     public BetterViewPager(Context context) {
         super(context);
+        this.setRotationY(180);
     }
 
     public BetterViewPager(Context context, AttributeSet attrs) {
